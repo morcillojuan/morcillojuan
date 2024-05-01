@@ -1,0 +1,101 @@
+p,h1,h2,h3,ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{font-size: 38px
+}
+
+p{font-size: 18px;}
+
+header{
+
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+img{width: 30%;
+}
+a{
+    text-decoration:none ;
+}
+}
+
+
+
+header ul{
+    display: flex;
+flex-direction: row
+
+}
+
+header ul li{
+    margin-right: 80px;
+width: 100%;
+color: white;
+list-style-type: none;
+}
+
+.pcampeonatos{
+    display: flex;
+    flex-direction: row;
+.texto{
+    flex-direction: column;
+    
+}
+.imagen{
+    flex-direction: column;
+    img{
+        width: 250px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+}
+
+.pcaida{
+    display: flex;
+    flex-direction: row;
+    img{
+        width: 300px;
+    } 
+}
+.cai{
+    flex-direction: column;
+ p{
+    font-size: 12px;
+ }
+}
+
+.video{
+    text-align: center;
+    p{
+        font-size: 12px;
+    }
+}
+
+
+
+.evander{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 50px;
+    justify-content: space-between;
+p{
+    font-size: 12px;
+}
+}
+.pelea1{
+flex-direction: column;
+ }
+ .pelea2{
+    flex-direction: column;
+    img{
+        width: 540px;
+
+    }
+ }
+
+footer{
+    background-color: black;
+    padding: 50px 0 50px 0;
+}
