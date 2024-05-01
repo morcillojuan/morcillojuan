@@ -1,0 +1,58 @@
+p,h1,h2,h3,ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{font-size: 38px
+}
+
+p{font-size: 18px;
+}
+
+header{
+
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+img{width: 30%;
+}
+a{
+    text-decoration:none ;
+}
+}
+
+
+
+header ul{
+    display: flex;
+flex-direction: row
+
+}
+
+header ul li{
+    margin-right: 80px;
+width: 100%;
+color: white;
+list-style-type: none;
+
+
+}
+.fotoyvideo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    p{ 
+        width: 90%;
+        font-size: 12px;
+        flex-directio
+    }
+}
+
+
+.fotoyvideo img{
+    width: 500px;
+}
+
+footer{
+
+    background-color: black;
+    padding: 50px 0 50px 0 
+}
